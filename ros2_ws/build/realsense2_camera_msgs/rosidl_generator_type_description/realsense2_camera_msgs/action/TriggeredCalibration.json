@@ -1,0 +1,552 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Goal",
+        "fields": [
+          {
+            "name": "json",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "calib run"
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "error_msg",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "calibration",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "health",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration",
+      "hash_string": "RIHS01_c35060ba8a136e8270707f94fa53cff9dab9c6a31ec047cfdc2f9c6b58c3e96d"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Feedback",
+      "hash_string": "RIHS01_f8d4fab3d989123fe9786c94008b5de77b40397993a49032c400100c43838952"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_FeedbackMessage",
+      "hash_string": "RIHS01_44486605048d47cd9593a8c0f7d07a3777924c220d8e1582dd7be0858c6561f2"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult",
+      "hash_string": "RIHS01_fe58eba74bb58010ca70a71ebac175db2015f2f79ee22f61c5a9a053bac5109c"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Event",
+      "hash_string": "RIHS01_fa62a4bf790019a9464ad7db0771825355e94fcb54242f2bebe1c46d03cf6e13"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Request",
+      "hash_string": "RIHS01_b583d1a70c8422b187a3ae6ae33d44f5306b92d869680194f860b87334371a96"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_GetResult_Response",
+      "hash_string": "RIHS01_ed8c61381007ca2d868b5391228ad1ed29195eb1ceb8fc310714e6d0282a3d42"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Goal",
+      "hash_string": "RIHS01_c752d032639f0f2030fae5f14a485e666475962db882e32173285600f65048b5"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Result",
+      "hash_string": "RIHS01_e74a98f5a1f746d9c56553afa80a8fc9064bc8557363599ca6cebfbc9852ae92"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal",
+      "hash_string": "RIHS01_9e403caee7f206cc5e9b18e99e17cf20747f05bc8c083b12ac158e87c0c05279"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Event",
+      "hash_string": "RIHS01_45382634560cbd38b92f096e34b503f9fe37e537f21f67b68f7d4120aa6d9a9b"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Request",
+      "hash_string": "RIHS01_6a4935669577968c194a47a4623a75a18412f2ad8d2bc435e48f051b132cef64"
+    },
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_SendGoal_Response",
+      "hash_string": "RIHS01_02f00a7b349d688b02af77683b0ddcadc0d27d584d5e24e3125245be6202dcab"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

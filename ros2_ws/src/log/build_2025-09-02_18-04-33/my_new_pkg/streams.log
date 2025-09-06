@@ -1,0 +1,22 @@
+[0.662s] Invoking command in '/home/eloisezeng/ros2_ws/src/build/my_new_pkg': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eloisezeng/ros2_ws/src/build/my_new_pkg/prefix_override:/home/eloisezeng/miniconda3/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eloisezeng/ros2_ws/src/install/my_new_pkg/lib/python3.13/site-packages:${PYTHONPATH} /home/eloisezeng/miniconda3/bin/python3.13 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eloisezeng/ros2_ws/src/build/my_new_pkg/build --no-deps symlink_data
+[0.777s] /home/eloisezeng/miniconda3/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.777s]   warnings.warn(msg)
+[0.876s] running develop
+[0.993s] running egg_info
+[1.006s] creating my_new_pkg.egg-info
+[1.006s] writing my_new_pkg.egg-info/PKG-INFO
+[1.006s] writing dependency_links to my_new_pkg.egg-info/dependency_links.txt
+[1.007s] writing requirements to my_new_pkg.egg-info/requires.txt
+[1.007s] writing top-level names to my_new_pkg.egg-info/top_level.txt
+[1.007s] writing manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+[1.034s] reading manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+[1.034s] writing manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+[1.048s] running build_ext
+[1.048s] Creating /home/eloisezeng/ros2_ws/src/install/my_new_pkg/lib/python3.13/site-packages/my-new-pkg.egg-link (link to .)
+[1.049s] 
+[1.049s] Installed /home/eloisezeng/ros2_ws/src/build/my_new_pkg
+[1.049s] running symlink_data
+[1.049s] creating /home/eloisezeng/ros2_ws/src/install/my_new_pkg/share/ament_index/resource_index/packages
+[1.049s] symbolically linking /home/eloisezeng/ros2_ws/src/build/my_new_pkg/resource/my_new_pkg -> /home/eloisezeng/ros2_ws/src/install/my_new_pkg/share/ament_index/resource_index/packages
+[1.049s] symbolically linking /home/eloisezeng/ros2_ws/src/build/my_new_pkg/package.xml -> /home/eloisezeng/ros2_ws/src/install/my_new_pkg/share/my_new_pkg
+[1.068s] Invoked command in '/home/eloisezeng/ros2_ws/src/build/my_new_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eloisezeng/ros2_ws/src/build/my_new_pkg/prefix_override:/home/eloisezeng/miniconda3/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eloisezeng/ros2_ws/src/install/my_new_pkg/lib/python3.13/site-packages:${PYTHONPATH} /home/eloisezeng/miniconda3/bin/python3.13 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eloisezeng/ros2_ws/src/build/my_new_pkg/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+['-DMUJOCO_INCLUDE_DIR=/home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/include', '-DMUJOCO_LIB=/home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/libmujoco.so.3.3.5', '-DAMENT_CMAKE_SYMLINK_INSTALL=1']

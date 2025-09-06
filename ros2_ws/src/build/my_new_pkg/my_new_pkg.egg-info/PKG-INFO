@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: my_new_pkg
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: eloisezeng
+Maintainer-email: eloise.zeng@gmail.com
+License: TODO: License declaration
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

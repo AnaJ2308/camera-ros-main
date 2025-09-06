@@ -1,0 +1,1 @@
+/home/eloisezeng/ros2_ws/src/realsense-ros/realsense2_camera/examples/pointcloud/rs_pointcloud_infra_launch.py

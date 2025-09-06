@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating my_launch.egg-info
+writing my_launch.egg-info/PKG-INFO
+writing dependency_links to my_launch.egg-info/dependency_links.txt
+writing entry points to my_launch.egg-info/entry_points.txt
+writing requirements to my_launch.egg-info/requires.txt
+writing top-level names to my_launch.egg-info/top_level.txt
+writing manifest file 'my_launch.egg-info/SOURCES.txt'
+reading manifest file 'my_launch.egg-info/SOURCES.txt'
+writing manifest file 'my_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eloisezeng/ros2_ws/src/install/my_launch/lib/python3.13/site-packages/my-launch.egg-link (link to .)
+Installing heightfield_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+Installing live_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+Installing multi_cam_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+Installing pointcloud_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+
+Installed /home/eloisezeng/ros2_ws/src/build/my_launch
+running symlink_data
+creating /home/eloisezeng/ros2_ws/src/install/my_launch/share/ament_index/resource_index/packages
+symbolically linking /home/eloisezeng/ros2_ws/src/build/my_launch/resource/my_launch -> /home/eloisezeng/ros2_ws/src/install/my_launch/share/ament_index/resource_index/packages
+symbolically linking /home/eloisezeng/ros2_ws/src/build/my_launch/package.xml -> /home/eloisezeng/ros2_ws/src/install/my_launch/share/my_launch

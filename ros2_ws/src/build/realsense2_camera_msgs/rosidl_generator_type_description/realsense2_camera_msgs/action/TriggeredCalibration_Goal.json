@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Goal",
+      "fields": [
+        {
+          "name": "json",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "calib run"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "realsense2_camera_msgs/action/TriggeredCalibration_Goal",
+      "hash_string": "RIHS01_c752d032639f0f2030fae5f14a485e666475962db882e32173285600f65048b5"
+    }
+  ]
+}

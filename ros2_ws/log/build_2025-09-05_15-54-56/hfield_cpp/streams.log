@@ -1,0 +1,65 @@
+[0.013s] Invoking command in '/home/eloisezeng/ros2_ws/build/hfield_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake /home/eloisezeng/ros2_ws/src/hfield_cpp -DMUJOCO_INCLUDE_DIR=/home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/include -DMUJOCO_LIB=/home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/libmujoco.so.3.3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eloisezeng/ros2_ws/install/hfield_cpp
+[0.183s] -- The C compiler identification is GNU 13.3.0
+[0.183s] -- The CXX compiler identification is GNU 13.3.0
+[0.183s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /home/eloisezeng/venvs/ros312/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.466s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.492s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.538s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.635s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.722s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.742s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.807s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.861s] -- Using MuJoCo include: /home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/include
+[0.861s] -- Using MuJoCo lib    : /home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/libmujoco.so.3.3.5
+[0.865s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.866s] -- Checking for module 'glfw3'
+[0.878s] --   Found glfw3, version 3.3.10
+[0.979s] -- Configuring done (1.0s)
+[0.991s] -- Generating done (0.0s)
+[0.994s] -- Build files have been written to: /home/eloisezeng/ros2_ws/build/hfield_cpp
+[1.002s] Invoked command in '/home/eloisezeng/ros2_ws/build/hfield_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake /home/eloisezeng/ros2_ws/src/hfield_cpp -DMUJOCO_INCLUDE_DIR=/home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/include -DMUJOCO_LIB=/home/eloisezeng/venvs/ros312/lib/python3.12/site-packages/mujoco/libmujoco.so.3.3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eloisezeng/ros2_ws/install/hfield_cpp
+[1.003s] Invoking command in '/home/eloisezeng/ros2_ws/build/hfield_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --build /home/eloisezeng/ros2_ws/build/hfield_cpp -- -j32 -l32
+[1.044s] [ 25%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/hello_node.cpp.o[0m
+[1.044s] [ 50%] [32mBuilding CXX object CMakeFiles/hfield_node.dir/src/hfield_node.cpp.o[0m
+[3.337s] [ 75%] [32m[1mLinking CXX executable hello_node[0m
+[3.426s] [ 75%] Built target hello_node
+[6.891s] [100%] [32m[1mLinking CXX executable hfield_node[0m
+[7.095s] [100%] Built target hfield_node
+[7.104s] Invoked command in '/home/eloisezeng/ros2_ws/build/hfield_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --build /home/eloisezeng/ros2_ws/build/hfield_cpp -- -j32 -l32
+[7.112s] Invoking command in '/home/eloisezeng/ros2_ws/build/hfield_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --install /home/eloisezeng/ros2_ws/build/hfield_cpp
+[7.118s] -- Install configuration: ""
+[7.118s] -- Execute custom install script
+[7.118s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/lib/hfield_cpp/hello_node
+[7.126s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/lib/hfield_cpp/hfield_node
+[7.133s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/ament_index/resource_index/package_run_dependencies/hfield_cpp
+[7.142s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/ament_index/resource_index/parent_prefix_path/hfield_cpp
+[7.148s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/ament_prefix_path.sh
+[7.156s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/ament_prefix_path.dsv
+[7.163s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/path.sh
+[7.170s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/path.dsv
+[7.178s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.bash
+[7.185s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.sh
+[7.192s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.zsh
+[7.199s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.dsv
+[7.206s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/package.dsv
+[7.212s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/ament_index/resource_index/packages/hfield_cpp
+[7.219s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/cmake/hfield_cppConfig.cmake
+[7.226s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/cmake/hfield_cppConfig-version.cmake
+[7.233s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/package.xml
+[7.241s] Invoked command in '/home/eloisezeng/ros2_ws/build/hfield_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --install /home/eloisezeng/ros2_ws/build/hfield_cpp

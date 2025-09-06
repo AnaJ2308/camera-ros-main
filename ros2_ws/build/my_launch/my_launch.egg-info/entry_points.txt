@@ -1,0 +1,5 @@
+[console_scripts]
+heightfield_subscriber = my_launch.heightfield_subscriber:main
+live_subscriber = my_launch.live_subscriber:main
+multi_cam_subscriber = my_launch.multi_cam_subscriber:main
+pointcloud_subscriber = my_launch.pointcloud_subscriber:main

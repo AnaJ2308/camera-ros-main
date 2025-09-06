@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "realsense2_camera_msgs/srv/CalibConfigWrite_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "error_message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "realsense2_camera_msgs/srv/CalibConfigWrite_Response",
+      "hash_string": "RIHS01_e0cc5eecb806faa1a255a7f3838f29d22c7cc271d28871e46c94234771dd8c2e"
+    }
+  ]
+}

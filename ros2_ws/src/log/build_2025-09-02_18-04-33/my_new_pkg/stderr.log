@@ -1,0 +1,2 @@
+/home/eloisezeng/miniconda3/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)

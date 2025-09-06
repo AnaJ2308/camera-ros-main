@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/eloisezeng/ros2_ws/build/hfield_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --build /home/eloisezeng/ros2_ws/build/hfield_cpp -- -j32 -l32
+[0.191s] [ 50%] Built target hello_node
+[0.191s] [100%] Built target hfield_node
+[0.191s] Invoked command in '/home/eloisezeng/ros2_ws/build/hfield_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --build /home/eloisezeng/ros2_ws/build/hfield_cpp -- -j32 -l32
+[0.199s] Invoking command in '/home/eloisezeng/ros2_ws/build/hfield_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --install /home/eloisezeng/ros2_ws/build/hfield_cpp
+[0.364s] -- Install configuration: ""
+[0.364s] -- Execute custom install script
+[0.364s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/lib/hfield_cpp/hello_node
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/lib/hfield_cpp/hfield_node
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/ament_index/resource_index/package_run_dependencies/hfield_cpp
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/ament_index/resource_index/parent_prefix_path/hfield_cpp
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/ament_prefix_path.sh
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/ament_prefix_path.dsv
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/path.sh
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/environment/path.dsv
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.bash
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.sh
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.zsh
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/local_setup.dsv
+[0.365s] -- Symlinking: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/package.dsv
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/ament_index/resource_index/packages/hfield_cpp
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/cmake/hfield_cppConfig.cmake
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/cmake/hfield_cppConfig-version.cmake
+[0.365s] -- Up-to-date symlink: /home/eloisezeng/ros2_ws/install/hfield_cpp/share/hfield_cpp/package.xml
+[0.368s] Invoked command in '/home/eloisezeng/ros2_ws/build/hfield_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_new_pkg:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/cmake --install /home/eloisezeng/ros2_ws/build/hfield_cpp

@@ -1,0 +1,17 @@
+[0.813s] Invoking command in '/home/eloisezeng/ros2_ws/build/my_new_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/eloisezeng/ros2_ws/build/my_new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eloisezeng/ros2_ws/install/my_new_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eloisezeng/ros2_ws/build/my_new_pkg/build --no-deps symlink_data
+[1.068s] running develop
+[1.233s] running egg_info
+[1.249s] writing my_new_pkg.egg-info/PKG-INFO
+[1.249s] writing dependency_links to my_new_pkg.egg-info/dependency_links.txt
+[1.250s] writing entry points to my_new_pkg.egg-info/entry_points.txt
+[1.250s] writing requirements to my_new_pkg.egg-info/requires.txt
+[1.250s] writing top-level names to my_new_pkg.egg-info/top_level.txt
+[1.281s] reading manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+[1.281s] writing manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+[1.297s] running build_ext
+[1.298s] Creating /home/eloisezeng/ros2_ws/install/my_new_pkg/lib/python3.12/site-packages/my-new-pkg.egg-link (link to .)
+[1.298s] Installing my_node script to /home/eloisezeng/ros2_ws/install/my_new_pkg/lib/my_new_pkg
+[1.298s] 
+[1.298s] Installed /home/eloisezeng/ros2_ws/build/my_new_pkg
+[1.298s] running symlink_data
+[1.321s] Invoked command in '/home/eloisezeng/ros2_ws/build/my_new_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros312) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/eloisezeng/ros2_ws/build/my_new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eloisezeng/ros2_ws/install/my_new_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros312) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eloisezeng/ros2_ws/build/my_new_pkg/build --no-deps symlink_data

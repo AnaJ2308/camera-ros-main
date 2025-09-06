@@ -1,0 +1,20 @@
+/home/eloisezeng/miniconda3/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating my_new_pkg.egg-info
+writing my_new_pkg.egg-info/PKG-INFO
+writing dependency_links to my_new_pkg.egg-info/dependency_links.txt
+writing requirements to my_new_pkg.egg-info/requires.txt
+writing top-level names to my_new_pkg.egg-info/top_level.txt
+writing manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+reading manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eloisezeng/ros2_ws/src/install/my_new_pkg/lib/python3.13/site-packages/my-new-pkg.egg-link (link to .)
+
+Installed /home/eloisezeng/ros2_ws/src/build/my_new_pkg
+running symlink_data
+creating /home/eloisezeng/ros2_ws/src/install/my_new_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/eloisezeng/ros2_ws/src/build/my_new_pkg/resource/my_new_pkg -> /home/eloisezeng/ros2_ws/src/install/my_new_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/eloisezeng/ros2_ws/src/build/my_new_pkg/package.xml -> /home/eloisezeng/ros2_ws/src/install/my_new_pkg/share/my_new_pkg

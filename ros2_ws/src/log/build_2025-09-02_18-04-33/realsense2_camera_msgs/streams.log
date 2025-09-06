@@ -1,0 +1,189 @@
+[0.017s] Invoking command in '/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eloisezeng/ros2_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eloisezeng/ros2_ws/src/install/realsense2_camera_msgs
+[0.175s] -- The C compiler identification is GNU 13.3.0
+[0.175s] -- The CXX compiler identification is GNU 13.3.0
+[0.175s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.390s] -- Found Python3: /home/eloisezeng/miniconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.475s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.566s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.579s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.594s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.176s] -- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.178s] -- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.180s] -- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.183s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.102s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.106s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.195s] -- Found PythonExtra: /home/eloisezeng/miniconda3/bin/python3  
+[2.489s] -- Found Python3: /home/eloisezeng/miniconda3/bin/python3 (found version "3.13.5") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.554s] -- Found ament_cmake_flake8: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.557s] -- Found ament_cmake_pep257: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.567s] -- Configuring done (2.5s)
+[2.619s] -- Generating done (0.0s)
+[2.630s] -- Build files have been written to: /home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs
+[2.639s] Invoked command in '/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eloisezeng/ros2_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eloisezeng/ros2_ws/src/install/realsense2_camera_msgs
+[2.640s] Invoking command in '/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs -- -j32 -l32
+[2.684s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.691s] [  1%] Built target ament_cmake_python_symlink_realsense2_camera_msgs
+[2.856s] running egg_info
+[2.870s] creating realsense2_camera_msgs.egg-info
+[2.870s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[2.870s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[2.870s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[2.870s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.909s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.910s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.930s] [  1%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[2.949s] [  1%] Built target realsense2_camera_msgs__rosidl_generator_type_description
+[2.958s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.966s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.775s] [  2%] Built target realsense2_camera_msgs__cpp
+[3.936s] [  3%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__description.c.o[0m
+[3.936s] [  5%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[3.936s] [  5%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__description.c.o[0m
+[3.936s] [  6%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[3.937s] [  7%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__description.c.o[0m
+[3.937s] [  8%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[3.937s] [  9%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[3.937s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[3.938s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[3.938s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[3.938s] [ 13%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__description.c.o[0m
+[3.938s] [ 14%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[3.939s] [ 15%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o[0m
+[3.939s] [ 17%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__description.c.o[0m
+[3.939s] [ 17%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o[0m
+[3.939s] [ 18%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[3.940s] [ 19%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__description.c.o[0m
+[3.940s] [ 20%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o[0m
+[3.940s] [ 21%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.c.o[0m
+[3.940s] [ 22%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__description.c.o[0m
+[3.941s] [ 23%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o[0m
+[3.941s] [ 24%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.c.o[0m
+[3.941s] [ 25%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__description.c.o[0m
+[3.942s] [ 25%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.c.o[0m
+[4.076s] [ 26%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so[0m
+[4.113s] [ 26%] Built target realsense2_camera_msgs__rosidl_generator_c
+[4.123s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.123s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.123s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.123s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.123s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.123s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.562s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[4.563s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[4.563s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[4.563s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[4.564s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[4.564s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/action/triggered_calibration__type_support.cpp.o[0m
+[4.565s] [ 38%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/calib_config_read__type_support.cpp.o[0m
+[4.566s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/calib_config_write__type_support.cpp.o[0m
+[4.581s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[4.581s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[4.581s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/calib_config_write__type_support.cpp.o[0m
+[4.581s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/calib_config_read__type_support.cpp.o[0m
+[4.582s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[4.583s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[4.583s] [ 45%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[4.583s] [ 46%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/action/triggered_calibration__type_support.cpp.o[0m
+[4.618s] [ 47%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so[0m
+[4.657s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[4.705s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[4.706s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[4.706s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.cpp.o[0m
+[4.706s] [ 51%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.cpp.o[0m
+[4.706s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[4.708s] [ 53%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.cpp.o[0m
+[4.709s] [ 55%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o[0m
+[4.709s] [ 55%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[4.772s] [ 56%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.c.o[0m
+[4.774s] [ 59%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[4.774s] [ 59%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[4.774s] [ 59%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[4.774s] [ 62%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[4.774s] [ 62%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[4.774s] [ 62%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.c.o[0m
+[4.774s] [ 63%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.c.o[0m
+[4.846s] [ 64%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.879s] [ 64%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[5.036s] [ 65%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[5.036s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[5.036s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[5.036s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[5.036s] [ 69%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/calib_config_read__type_support.cpp.o[0m
+[5.036s] [ 70%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/calib_config_write__type_support.cpp.o[0m
+[5.036s] [ 71%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/action/detail/dds_fastrtps/triggered_calibration__type_support.cpp.o[0m
+[5.036s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[5.138s] [ 73%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so[0m
+[5.154s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[5.154s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[5.154s] [ 76%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support_c.cpp.o[0m
+[5.155s] [ 77%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support_c.cpp.o[0m
+[5.155s] [ 78%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[5.156s] [ 79%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o[0m
+[5.157s] [ 80%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[5.157s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support_c.cpp.o[0m
+[5.225s] [ 81%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[5.351s] [ 82%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.445s] [ 82%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[5.623s] [ 83%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.684s] [ 83%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[5.828s] [ 84%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.894s] [ 84%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[5.911s] [ 84%] Built target realsense2_camera_msgs
+[5.929s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.394s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/action/_triggered_calibration_s.c'
+[7.394s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_write_s.c'
+[7.394s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_read_s.c'
+[7.394s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c'
+[7.394s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c'
+[7.394s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/action/__init__.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/__init__.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/__init__.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/action/_triggered_calibration.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_write.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_read.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/srv/_device_info.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_metadata.py'
+[7.395s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics.py'
+[7.396s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info.py'
+[7.396s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c'
+[7.396s] gmake[2]: *** Deleting file 'rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c'
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:254: rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:242: rosidl_generator_py/realsense2_camera_msgs/action/_triggered_calibration.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:248: rosidl_generator_py/realsense2_camera_msgs/srv/__init__.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:257: rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:260: rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:263: rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:266: rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:269: rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_read_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:233: rosidl_generator_py/realsense2_camera_msgs/srv/_device_info.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:272: rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_write_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:251: rosidl_generator_py/realsense2_camera_msgs/action/__init__.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:275: rosidl_generator_py/realsense2_camera_msgs/action/_triggered_calibration_s.c] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:227: rosidl_generator_py/realsense2_camera_msgs/msg/_metadata.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:236: rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_read.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:245: rosidl_generator_py/realsense2_camera_msgs/msg/__init__.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:221: rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info.py] Interrupt
+[7.396s] gmake[2]: *** [/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs/realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make:239: rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_write.py] Interrupt
+[7.396s] gmake[1]: *** [CMakeFiles/Makefile2:621: realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/all] Interrupt
+[7.396s] gmake: *** [Makefile:146: all] Interrupt
+[7.397s] Invoked command in '/home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eloisezeng/ros2_ws/install/my_launch:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eloisezeng/ros2_ws/src/build/realsense2_camera_msgs -- -j32 -l32

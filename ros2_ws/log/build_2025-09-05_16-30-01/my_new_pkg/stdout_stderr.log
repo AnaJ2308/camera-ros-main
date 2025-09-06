@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing my_new_pkg.egg-info/PKG-INFO
+writing dependency_links to my_new_pkg.egg-info/dependency_links.txt
+writing entry points to my_new_pkg.egg-info/entry_points.txt
+writing requirements to my_new_pkg.egg-info/requires.txt
+writing top-level names to my_new_pkg.egg-info/top_level.txt
+reading manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_new_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eloisezeng/ros2_ws/install/my_new_pkg/lib/python3.12/site-packages/my-new-pkg.egg-link (link to .)
+Installing my_node script to /home/eloisezeng/ros2_ws/install/my_new_pkg/lib/my_new_pkg
+
+Installed /home/eloisezeng/ros2_ws/build/my_new_pkg
+running symlink_data

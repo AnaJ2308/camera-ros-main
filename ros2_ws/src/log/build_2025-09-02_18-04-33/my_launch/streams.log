@@ -1,0 +1,27 @@
+[0.668s] Invoking command in '/home/eloisezeng/ros2_ws/src/build/my_launch': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eloisezeng/ros2_ws/src/build/my_launch/prefix_override:/home/eloisezeng/miniconda3/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eloisezeng/ros2_ws/src/install/my_launch/lib/python3.13/site-packages:${PYTHONPATH} /home/eloisezeng/miniconda3/bin/python3.13 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eloisezeng/ros2_ws/src/build/my_launch/build --no-deps symlink_data
+[0.784s] /home/eloisezeng/miniconda3/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.784s]   warnings.warn(msg)
+[0.882s] running develop
+[0.999s] running egg_info
+[1.012s] creating my_launch.egg-info
+[1.012s] writing my_launch.egg-info/PKG-INFO
+[1.012s] writing dependency_links to my_launch.egg-info/dependency_links.txt
+[1.012s] writing entry points to my_launch.egg-info/entry_points.txt
+[1.012s] writing requirements to my_launch.egg-info/requires.txt
+[1.012s] writing top-level names to my_launch.egg-info/top_level.txt
+[1.013s] writing manifest file 'my_launch.egg-info/SOURCES.txt'
+[1.040s] reading manifest file 'my_launch.egg-info/SOURCES.txt'
+[1.040s] writing manifest file 'my_launch.egg-info/SOURCES.txt'
+[1.053s] running build_ext
+[1.054s] Creating /home/eloisezeng/ros2_ws/src/install/my_launch/lib/python3.13/site-packages/my-launch.egg-link (link to .)
+[1.054s] Installing heightfield_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+[1.054s] Installing live_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+[1.054s] Installing multi_cam_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+[1.054s] Installing pointcloud_subscriber script to /home/eloisezeng/ros2_ws/src/install/my_launch/lib/my_launch
+[1.055s] 
+[1.055s] Installed /home/eloisezeng/ros2_ws/src/build/my_launch
+[1.055s] running symlink_data
+[1.055s] creating /home/eloisezeng/ros2_ws/src/install/my_launch/share/ament_index/resource_index/packages
+[1.055s] symbolically linking /home/eloisezeng/ros2_ws/src/build/my_launch/resource/my_launch -> /home/eloisezeng/ros2_ws/src/install/my_launch/share/ament_index/resource_index/packages
+[1.055s] symbolically linking /home/eloisezeng/ros2_ws/src/build/my_launch/package.xml -> /home/eloisezeng/ros2_ws/src/install/my_launch/share/my_launch
+[1.083s] Invoked command in '/home/eloisezeng/ros2_ws/src/build/my_launch' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eloisezeng/ros2_ws/src/build/my_launch/prefix_override:/home/eloisezeng/miniconda3/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eloisezeng/ros2_ws/src/install/my_launch/lib/python3.13/site-packages:${PYTHONPATH} /home/eloisezeng/miniconda3/bin/python3.13 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eloisezeng/ros2_ws/src/build/my_launch/build --no-deps symlink_data

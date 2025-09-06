@@ -1,0 +1,9 @@
+[ 50%] Built target hello_node
+[ 75%] [32mBuilding CXX object CMakeFiles/hfield_node.dir/src/hfield_node.cpp.o[0m
+[01m[K/home/eloisezeng/ros2_ws/src/hfield_cpp/src/hfield_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/eloisezeng/ros2_ws/src/hfield_cpp/src/hfield_node.cpp:270:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcam[m[K’ was not declared in this scope
+  270 | ViewerCtx vctx{ &[01;31m[Kcam[m[K };
+      |                  [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/hfield_node.dir/build.make:76: CMakeFiles/hfield_node.dir/src/hfield_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/hfield_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
