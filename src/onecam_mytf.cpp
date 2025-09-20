@@ -1,6 +1,6 @@
 // g++/CMake with: rclcpp sensor_msgs MuJoCo GLFW
 // Single-camera → hardcoded TF, R and t -> MuJoCo (no TF lookup) - very fast
-// ROS2 + MuJoCo live heightfield viewer
+// ROS2 + MuJoCo live heightfield viewer. python equivakent: one_cam_my_tf.py
 
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
@@ -24,7 +24,7 @@
 using std::placeholders::_1;
 
 // =========================== CONFIG ===========================
-static const char* TOPIC = "/camera/camera/depth/color/points";
+static const char* TOPIC = "/topic_1/cam_1/depth/color/points";
 
 constexpr int   NROW = 160;
 constexpr int   NCOL = 160;
@@ -278,7 +278,7 @@ int main(int argc, char** argv) {
   // initial upload of hfield
   set_heightfield(viewer.m, viewer.hid, heights01);
   viewer.upload_hfield();
-
+  
   // 2) ROS2
   rclcpp::init(argc, argv);
   auto node = std::make_shared<PC2ToHFieldNode>(viewer.m, viewer.hid,

@@ -124,6 +124,68 @@ if(MUJOCO_INCLUDE_DIR AND MUJOCO_LIB)
   install(TARGETS onecam_mytf DESTINATION lib/${PROJECT_NAME})
 endif()
 
+# ---------- twocam_hfield (MuJoCo + GLFW, TF lookup; vector math) ----------
+if(MUJOCO_INCLUDE_DIR AND MUJOCO_LIB)
+  add_executable(twocam_hfield src/twocam_hfield.cpp)
+
+  target_include_directories(twocam_hfield PRIVATE
+    ${MUJOCO_INCLUDE_DIR}
+    ${GLFW3_INCLUDE_DIRS}
+  )
+
+  ament_target_dependencies(twocam_hfield
+    rclcpp
+    sensor_msgs
+    tf2_ros
+    tf2_sensor_msgs
+    geometry_msgs
+  )
+
+  target_link_libraries(twocam_hfield
+    ${MUJOCO_LIB}
+    ${GLFW3_LIBRARIES}
+    OpenGL::GL
+    dl m pthread
+  )
+
+  if(_MJ_LIBDIR)
+    target_link_options(twocam_hfield PRIVATE "-Wl,-rpath,${_MJ_LIBDIR}")
+  endif()
+
+  install(TARGETS twocam_hfield DESTINATION lib/${PROJECT_NAME})
+endif()
+
+# ---------- twocam_hfield2 (MuJoCo + GLFW, TF lookup; vector math) ----------
+if(MUJOCO_INCLUDE_DIR AND MUJOCO_LIB)
+  add_executable(twocam_hfield2 src/twocam_hfield2.cpp)
+
+  target_include_directories(twocam_hfield2 PRIVATE
+    ${MUJOCO_INCLUDE_DIR}
+    ${GLFW3_INCLUDE_DIRS}
+  )
+
+  ament_target_dependencies(twocam_hfield2
+    rclcpp
+    sensor_msgs
+    tf2_ros
+    tf2_sensor_msgs
+    geometry_msgs
+  )
+
+  target_link_libraries(twocam_hfield2
+    ${MUJOCO_LIB}
+    ${GLFW3_LIBRARIES}
+    OpenGL::GL
+    dl m pthread
+  )
+
+  if(_MJ_LIBDIR)
+    target_link_options(twocam_hfield2 PRIVATE "-Wl,-rpath,${_MJ_LIBDIR}")
+  endif()
+
+  install(TARGETS twocam_hfield2 DESTINATION lib/${PROJECT_NAME})
+endif()
+
 
 
 if(MUJOCO_INCLUDE_DIR AND MUJOCO_LIB)
